@@ -1,0 +1,9 @@
+JAVA_HOME="/usr/lib/jvm/java-11-openjdk-amd64"
+export JAVA_HOME
+M2_HOME="~/Downloads/maven"
+ANACONDA_HOME="/home/gurpreet/anaconda3"
+export M2_HOME
+PATH=$PATH:$JAVA_HOME/bin
+PATH=$PATH:$M2_HOME/bin
+PATH=$PATH:$ANACONDA_HOME/bin
+export PATH
